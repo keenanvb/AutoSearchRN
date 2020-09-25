@@ -1,0 +1,2 @@
+export const SEARCH_UPDATE = 'SEARCH_UPDATE';
+export const LOAD_WEBVIEW = 'LOAD_WEBVIEW';
