@@ -35,7 +35,7 @@ const Home = ({ search: { search, loading }, searchUpdate, ping }) => {
     }
 
     const urlRegex = RegExp(
-        /(https?:\/\/(www\.)?|www\.)[a-z0-9_]+\.(com|org|net)(\/[\w]+)?/
+        /(https?:\/\/(www\.)?|www\.)[a-z0-9_]+\.(com|org|net|io|dev|co.za)(\/[\w]+)?/
     );
 
     const { searchInput, url, formErrors } = formData;
